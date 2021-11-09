@@ -53,14 +53,8 @@ public class Alumno {
         if (nombre.length() >= 3) {
             tamañoNombre = tamañoNombre.substring(0, 3);
         }
-        else {
-            nombre = tamañoNombre;
-        }
         if (numeroMatricula.length() >= 4) {
             tamañoNumeroMatricula = tamañoNumeroMatricula.substring(0, 4);
-        }
-        else {
-            numeroMatricula = tamañoNumeroMatricula;
         }
         return tamañoNombre + tamañoNumeroMatricula;
     }
